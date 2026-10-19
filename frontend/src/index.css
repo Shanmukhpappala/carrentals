@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+:root {
+  --ink: #111f32;
+  --navy: #091a2c;
+  --navy-soft: #102a46;
+  --cobalt: #2864dc;
+  --paper: #f3f6fa;
+  --surface: #ffffff;
+  --muted: #65748a;
+  --line: #dce4ee;
+  --shadow-card: 0 9px 25px rgba(15, 35, 60, .055);
+  --body: 'Manrope', 'Segoe UI', sans-serif;
+  --display: 'Space Grotesk', 'Segoe UI', sans-serif;
+  --mono: 'DM Mono', Consolas, monospace;
+  color-scheme: light;
+  font: 14px/1.5 var(--body);
+  color: var(--ink);
+  background: var(--paper);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; min-height: 100%; scroll-behavior: smooth; background: var(--paper); }
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+#root { width: 100%; min-height: 100vh; }
+h1, h2, h3 { color: var(--ink); font-family: var(--display); font-weight: 600; letter-spacing: -.025em; }
+h1 { margin: 0; }
+button, input, select, textarea { font: inherit; }
+::selection { color: #fff; background: var(--cobalt); }

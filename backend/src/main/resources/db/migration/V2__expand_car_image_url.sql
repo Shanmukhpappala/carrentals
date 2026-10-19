@@ -1,0 +1,2 @@
+ALTER TABLE car
+    ALTER COLUMN image_url TYPE TEXT;

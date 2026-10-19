@@ -1,0 +1,20 @@
+/.phase1-backup-20261017-104632/
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Generated files
+node_modules/
+dist/
+dist-ssr/
+target/
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+/.github/modernize/
+/backend/src/main/resources/application-local.properties
+/backend/CarRental-Local.launch
